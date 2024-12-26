@@ -1,0 +1,12 @@
+/dev/block/dm-1 /system_root erofs ro 0 0
+/dev/block/dm-2 /system_ext erofs ro 0 0
+/dev/block/dm-0 /product erofs ro 0 0
+/dev/block/dm-3 /vendor erofs ro 0 0
+/dev/block/sdc5 /nvcfg ext4 rw 0 0
+/dev/block/sdc6 /nvdata ext4 rw 0 0
+/dev/block/sdc14 /persist ext4 ro 0 0
+/dev/block/sdc15 /protect_f ext4 rw 0 0
+/dev/block/sdc16 /protect_s ext4 rw 0 0
+/dev/block/sdd1 /usb-otg vfat rw 0 0
+/dev/block/sdc13 /metadata ext4 rw 0 0
+/dev/block/sdc76 /data f2fs rw 0 0
